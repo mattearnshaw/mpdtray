@@ -1,0 +1,7 @@
+ package "mpdtray"
+ version "0.1"
+ purpose "A simple MPD tray icon using GTK."
+
+option "port" p "mpd port" int default="6600" optional
+option "host" h "mpd host" string default="localhost" optional
+option "timeout" t "mpd timeout for synchronous operations" int default="0" optional
